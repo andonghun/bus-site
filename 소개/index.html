@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>소개 | 버스편</title>
+<meta name="description" content="버스편이 쓰는 데이터와 운영 방식.">
+<link rel="canonical" href="https://bus.flowtrace.xyz/%EC%86%8C%EA%B0%9C/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="버스편">
+<meta property="og:title" content="소개 | 버스편">
+<meta property="og:description" content="버스편이 쓰는 데이터와 운영 방식.">
+<meta property="og:url" content="https://bus.flowtrace.xyz/%EC%86%8C%EA%B0%9C/">
+<meta name="theme-color" content="#1f6b47">
+<link rel="icon" href="/icon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="/fonts/pretendard.css">
+<link rel="stylesheet" href="/style.css">
+<script>(function(c){if(location.hostname!==c.host)return;window.dataLayer=window.dataLayer||[];window.gtag=function(){dataLayer.push(arguments)};gtag('js',new Date());gtag('config',c.id);var s=document.createElement('script');s.async=true;s.src='https://www.googletagmanager.com/gtag/js?id='+encodeURIComponent(c.id);document.head.appendChild(s)})({"id":"G-WFM02XG0Y0","host":"bus.flowtrace.xyz"})</script>
+</head>
+<body>
+<!--
+THESIS: 매표창에 붙은 종이 시간표. 시(hour) 행과 분(minute) 셀의 격자가 하루 배차의 밀도와 공백을 한눈에 보여 준다. 답을 숨기는 검색 폼 히어로를 거부한다.
+OWN-WORLD: 흰 바탕, 먹색 글자, 고속도로 표지판 녹색 하나. 괘선은 1px, 숫자는 tabular. 카드 없음, 그림자 없음, 격자와 간격이 구조.
+STORY: 방문자는 첫 문장에서 횟수·첫차·막차·요금을 읽고, 격자에서 자기 시간대를 찾고, 상세 표에서 요금을 확인한 뒤 예매로 간다.
+FIRST VIEWPORT: 제목 → 요약 한 문장(숫자 굵게) → 시간 격자. 예매 링크는 격자 바로 아래.
+FORM: 매표창 종이 시간표 격자. 후보 목록 4번. seed bad0505f.
+FINISH: unreviewed and undocumented is unfinished; this build ends with the finish review, the verdict, and DESIGN.md
+-->
+<header class="site-head"><a class="brand" href="/"><svg class="mark" width="28" height="28" viewBox="0 0 28 28" aria-hidden="true"><rect x="3" y="5" width="22" height="16" rx="3" fill="none" stroke="currentColor" stroke-width="2"/><path d="M3 12h22M8 21v3M20 21v3" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><circle cx="9" cy="17" r="1.5" fill="currentColor"/><circle cx="19" cy="17" r="1.5" fill="currentColor"/></svg><span class="brand-name">버스편</span><span class="brand-tag">전국 고속·시외버스 시간표</span></a></header>
+<main class="wrap">
+<div class="prose">
+<h1>버스편 소개</h1>
+<p>버스편은 전국 고속버스·시외버스의 출발 시각, 도착 시각, 요금, 소요 시간을 터미널별·구간별·도시별로 보여 주는 사이트입니다. 검색에서 바로 답을 찾을 수 있도록 모든 구간을 각각의 페이지로 만들었습니다.</p>
+<h2>데이터</h2>
+<p>시간표는 국토교통부 국가대중교통정보센터(TAGO)가 공공데이터포털(data.go.kr)에 공개한 고속버스정보·시외버스정보 API에서 매일 새벽 받아 옵니다. API가 당일 배차만 주기 때문에 페이지마다 기준 날짜를 적어 두었습니다. 요일이나 명절에 따라 실제 운행이 다를 수 있으니 출발 전 예매 사이트나 터미널에 확인하세요.</p>
+<p>시외버스는 TAGO API가 제공하는 터미널만 다룹니다. 모든 시외버스 정류소가 들어 있지는 않습니다.</p>
+<h2>예매</h2>
+<p>이 사이트는 예매 기능이 없습니다. 고속버스는 KOBUS, 시외버스는 티머니 시외버스·버스타고에서 예매할 수 있으며 각 페이지에 링크를 두었습니다.</p>
+<h2>운영</h2>
+<p>버스편은 flowtrace가 운영하는 개인 프로젝트이며 광고 수익으로 유지됩니다. 잘못된 정보나 제안은 GitHub 저장소 이슈로 알려 주세요.</p>
+</div>
+</main>
+<footer class="site-foot"><p>시간표와 요금은 국토교통부 TAGO 공공데이터에서 매일 받아 옵니다. 요금은 어른 편도 기준이며 터미널 사정으로 실제와 다를 수 있습니다.</p><p><a href="/소개/">소개</a> · <a href="/개인정보처리방침/">개인정보처리방침</a> · <a href="/en/">English</a></p></footer>
+</body>
+</html>
