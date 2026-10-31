@@ -1,0 +1,70 @@
+# 버스편
+
+> 전국 고속·시외버스 시간표
+
+전국 고속버스·시외버스 시간표를 터미널별·구간별·도시별 페이지로 보여 주는 사이트입니다. 국토교통부 국가대중교통정보센터(TAGO)가 공공데이터포털에 공개한 고속·시외버스 API에서 매일 새벽 그날 배차를 받아 오며, 2026년 11월 1일 기준 터미널 353곳, 노선 2928개를 다룹니다. 요금은 어른 편도 기준이고, 요일·명절에 따라 실제 운행이 다를 수 있어 출발 전 예매 사이트나 터미널에서 확인해야 합니다.
+
+## 운행이 많은 도시 구간
+
+- [세종 → 서울 버스 시간표](https://bus.flowtrace.xyz/%EB%8F%84%EC%8B%9C/%EC%84%B8%EC%A2%85/%EC%84%9C%EC%9A%B8/): 하루 349회, 첫차 05:30, 막차 23:39
+- [서울 → 세종 버스 시간표](https://bus.flowtrace.xyz/%EB%8F%84%EC%8B%9C/%EC%84%9C%EC%9A%B8/%EC%84%B8%EC%A2%85/): 하루 338회, 첫차 00:05, 막차 23:35
+- [서울 → 청주 버스 시간표](https://bus.flowtrace.xyz/%EB%8F%84%EC%8B%9C/%EC%84%9C%EC%9A%B8/%EC%B2%AD%EC%A3%BC/): 하루 329회, 첫차 05:50, 막차 24:00
+- [청주 → 서울 버스 시간표](https://bus.flowtrace.xyz/%EB%8F%84%EC%8B%9C/%EC%B2%AD%EC%A3%BC/%EC%84%9C%EC%9A%B8/): 하루 328회, 첫차 05:50, 막차 23:30
+- [서울 → 평택 버스 시간표](https://bus.flowtrace.xyz/%EB%8F%84%EC%8B%9C/%EC%84%9C%EC%9A%B8/%ED%8F%89%ED%83%9D/): 하루 294회, 첫차 06:00, 막차 23:30
+- [대전 → 서울 버스 시간표](https://bus.flowtrace.xyz/%EB%8F%84%EC%8B%9C/%EB%8C%80%EC%A0%84/%EC%84%9C%EC%9A%B8/): 하루 291회, 첫차 05:00, 막차 24:00
+- [평택 → 서울 버스 시간표](https://bus.flowtrace.xyz/%EB%8F%84%EC%8B%9C/%ED%8F%89%ED%83%9D/%EC%84%9C%EC%9A%B8/): 하루 286회, 첫차 06:00, 막차 22:00
+- [서울 → 대전 버스 시간표](https://bus.flowtrace.xyz/%EB%8F%84%EC%8B%9C/%EC%84%9C%EC%9A%B8/%EB%8C%80%EC%A0%84/): 하루 268회, 첫차 05:30, 막차 24:00
+- [안성 → 서울 버스 시간표](https://bus.flowtrace.xyz/%EB%8F%84%EC%8B%9C/%EC%95%88%EC%84%B1/%EC%84%9C%EC%9A%B8/): 하루 253회, 첫차 06:10, 막차 22:50
+- [서울 → 천안 버스 시간표](https://bus.flowtrace.xyz/%EB%8F%84%EC%8B%9C/%EC%84%9C%EC%9A%B8/%EC%B2%9C%EC%95%88/): 하루 250회, 첫차 00:20, 막차 23:50
+- [천안 → 서울 버스 시간표](https://bus.flowtrace.xyz/%EB%8F%84%EC%8B%9C/%EC%B2%9C%EC%95%88/%EC%84%9C%EC%9A%B8/): 하루 250회, 첫차 05:50, 막차 22:40
+- [서울 → 안성 버스 시간표](https://bus.flowtrace.xyz/%EB%8F%84%EC%8B%9C/%EC%84%9C%EC%9A%B8/%EC%95%88%EC%84%B1/): 하루 237회, 첫차 06:05, 막차 23:10
+- [원주 → 서울 버스 시간표](https://bus.flowtrace.xyz/%EB%8F%84%EC%8B%9C/%EC%9B%90%EC%A3%BC/%EC%84%9C%EC%9A%B8/): 하루 235회, 첫차 06:00, 막차 23:00
+- [서울 → 원주 버스 시간표](https://bus.flowtrace.xyz/%EB%8F%84%EC%8B%9C/%EC%84%9C%EC%9A%B8/%EC%9B%90%EC%A3%BC/): 하루 231회, 첫차 06:00, 막차 24:00
+- [광주 → 서울 버스 시간표](https://bus.flowtrace.xyz/%EB%8F%84%EC%8B%9C/%EA%B4%91%EC%A3%BC/%EC%84%9C%EC%9A%B8/): 하루 159회, 첫차 01:30, 막차 24:00
+- [서울 → 창원 버스 시간표](https://bus.flowtrace.xyz/%EB%8F%84%EC%8B%9C/%EC%84%9C%EC%9A%B8/%EC%B0%BD%EC%9B%90/): 하루 148회, 첫차 01:00, 막차 23:30
+- [충주 → 서울 버스 시간표](https://bus.flowtrace.xyz/%EB%8F%84%EC%8B%9C/%EC%B6%A9%EC%A3%BC/%EC%84%9C%EC%9A%B8/): 하루 144회, 첫차 06:00, 막차 22:20
+- [서울 → 전주 버스 시간표](https://bus.flowtrace.xyz/%EB%8F%84%EC%8B%9C/%EC%84%9C%EC%9A%B8/%EC%A0%84%EC%A3%BC/): 하루 140회, 첫차 05:30, 막차 24:00
+- [서울 → 진주 버스 시간표](https://bus.flowtrace.xyz/%EB%8F%84%EC%8B%9C/%EC%84%9C%EC%9A%B8/%EC%A7%84%EC%A3%BC/): 하루 137회, 첫차 00:10, 막차 23:40
+- [창원 → 서울 버스 시간표](https://bus.flowtrace.xyz/%EB%8F%84%EC%8B%9C/%EC%B0%BD%EC%9B%90/%EC%84%9C%EC%9A%B8/): 하루 137회, 첫차 01:00, 막차 23:30
+- [서울 → 광주 버스 시간표](https://bus.flowtrace.xyz/%EB%8F%84%EC%8B%9C/%EC%84%9C%EC%9A%B8/%EA%B4%91%EC%A3%BC/): 하루 122회, 첫차 01:00, 막차 24:00
+- [대구 → 서울 버스 시간표](https://bus.flowtrace.xyz/%EB%8F%84%EC%8B%9C/%EB%8C%80%EA%B5%AC/%EC%84%9C%EC%9A%B8/): 하루 122회, 첫차 00:30, 막차 23:10
+- [인천 → 대전 버스 시간표](https://bus.flowtrace.xyz/%EB%8F%84%EC%8B%9C/%EC%9D%B8%EC%B2%9C/%EB%8C%80%EC%A0%84/): 하루 121회, 첫차 00:05, 막차 23:25
+- [속초 → 서울 버스 시간표](https://bus.flowtrace.xyz/%EB%8F%84%EC%8B%9C/%EC%86%8D%EC%B4%88/%EC%84%9C%EC%9A%B8/): 하루 119회, 첫차 06:00, 막차 23:00
+
+## 출발 편수가 많은 터미널
+
+- [서울고속버스터미널(경부·영동선) 고속버스 시간표](https://bus.flowtrace.xyz/%ED%84%B0%EB%AF%B8%EB%84%90/%EC%84%9C%EC%9A%B8%EA%B2%BD%EB%B6%80/): 117개 노선, 하루 2830회 출발
+- [센트럴시티터미널 고속버스 시간표](https://bus.flowtrace.xyz/%ED%84%B0%EB%AF%B8%EB%84%90/%EC%84%BC%ED%8A%B8%EB%9F%B4%EC%8B%9C%ED%8B%B0-%EC%84%9C%EC%9A%B8-%EC%84%9C%EC%9A%B8-naek021/): 82개 노선, 하루 1287회 출발
+- [광주종합버스터미널(유스퀘어) 고속·시외버스 시간표](https://bus.flowtrace.xyz/%ED%84%B0%EB%AF%B8%EB%84%90/%EA%B4%91%EC%A3%BC-%EC%9C%A0-%EC%8A%A4%ED%80%98%EC%96%B4/): 104개 노선, 하루 1200회 출발
+- [인천공항2터미널 시외버스 시간표](https://bus.flowtrace.xyz/%ED%84%B0%EB%AF%B8%EB%84%90/%EC%9D%B8%EC%B2%9C%EA%B3%B5%ED%95%AD2%ED%84%B0%EB%AF%B8%EB%84%90/): 82개 노선, 하루 965회 출발
+- [동서울터미널 시외버스 시간표](https://bus.flowtrace.xyz/%ED%84%B0%EB%AF%B8%EB%84%90/%EB%8F%99%EC%84%9C%EC%9A%B8/): 79개 노선, 하루 808회 출발
+- [천안터미널 고속·시외버스 시간표](https://bus.flowtrace.xyz/%ED%84%B0%EB%AF%B8%EB%84%90/%EC%B2%9C%EC%95%88/): 44개 노선, 하루 534회 출발
+- [인천터미널 고속·시외버스 시간표](https://bus.flowtrace.xyz/%ED%84%B0%EB%AF%B8%EB%84%90/%EC%9D%B8%EC%B2%9C/): 73개 노선, 하루 515회 출발
+- [대전복합터미널 시외버스 시간표](https://bus.flowtrace.xyz/%ED%84%B0%EB%AF%B8%EB%84%90/%EB%8C%80%EC%A0%84%EB%B3%B5%ED%95%A9/): 47개 노선, 하루 420회 출발
+- [전주터미널 고속버스 시간표](https://bus.flowtrace.xyz/%ED%84%B0%EB%AF%B8%EB%84%90/%EC%A0%84%EC%A3%BC-%EC%A0%84%EC%A3%BC-naek602/): 16개 노선, 하루 397회 출발
+- [원주터미널 고속·시외버스 시간표](https://bus.flowtrace.xyz/%ED%84%B0%EB%AF%B8%EB%84%90/%EC%9B%90%EC%A3%BC/): 28개 노선, 하루 393회 출발
+- [청주터미널 시외버스 시간표](https://bus.flowtrace.xyz/%ED%84%B0%EB%AF%B8%EB%84%90/%EC%B2%AD%EC%A3%BC/): 42개 노선, 하루 379회 출발
+- [서울남부터미널 고속·시외버스 시간표](https://bus.flowtrace.xyz/%ED%84%B0%EB%AF%B8%EB%84%90/%EC%84%9C%EC%9A%B8%EB%82%A8%EB%B6%80/): 39개 노선, 하루 371회 출발
+- [호남제일 고속버스 시간표](https://bus.flowtrace.xyz/%ED%84%B0%EB%AF%B8%EB%84%90/%ED%98%B8%EB%82%A8%EC%A0%9C%EC%9D%BC/): 10개 노선, 하루 325회 출발
+- [정안 고속버스 시간표](https://bus.flowtrace.xyz/%ED%84%B0%EB%AF%B8%EB%84%90/%EC%A0%95%EC%95%88-%EA%B8%B0%ED%83%80-naek315/): 29개 노선, 하루 320회 출발
+- [창원터미널 고속·시외버스 시간표](https://bus.flowtrace.xyz/%ED%84%B0%EB%AF%B8%EB%84%90/%EC%B0%BD%EC%9B%90/): 34개 노선, 하루 275회 출발
+- [유성복합터미널 고속·시외버스 시간표](https://bus.flowtrace.xyz/%ED%84%B0%EB%AF%B8%EB%84%90/%EC%9C%A0%EC%84%B1%EB%B3%B5%ED%95%A9/): 27개 노선, 하루 273회 출발
+- [부산종합버스터미널 고속버스 시간표](https://bus.flowtrace.xyz/%ED%84%B0%EB%AF%B8%EB%84%90/%EB%B6%80%EC%82%B0/): 26개 노선, 하루 264회 출발
+- [동서울터미널 고속버스 시간표](https://bus.flowtrace.xyz/%ED%84%B0%EB%AF%B8%EB%84%90/%EB%8F%99%EC%84%9C%EC%9A%B8-%EC%84%9C%EC%9A%B8-naek032/): 26개 노선, 하루 250회 출발
+- [대전복합터미널 고속버스 시간표](https://bus.flowtrace.xyz/%ED%84%B0%EB%AF%B8%EB%84%90/%EB%8C%80%EC%A0%84%EB%B3%B5%ED%95%A9-%EB%8C%80%EC%A0%84-naek300/): 10개 노선, 하루 243회 출발
+- [동대구터미널 고속버스 시간표](https://bus.flowtrace.xyz/%ED%84%B0%EB%AF%B8%EB%84%90/%EB%8F%99%EB%8C%80%EA%B5%AC-%EB%8C%80%EA%B5%AC-naek801/): 14개 노선, 하루 232회 출발
+- [정안 고속버스 시간표](https://bus.flowtrace.xyz/%ED%84%B0%EB%AF%B8%EB%84%90/%EC%A0%95%EC%95%88-%EA%B8%B0%ED%83%80-naek316/): 13개 노선, 하루 228회 출발
+- [순천터미널 고속·시외버스 시간표](https://bus.flowtrace.xyz/%ED%84%B0%EB%AF%B8%EB%84%90/%EC%88%9C%EC%B2%9C/): 24개 노선, 하루 213회 출발
+- [속초터미널 고속·시외버스 시간표](https://bus.flowtrace.xyz/%ED%84%B0%EB%AF%B8%EB%84%90/%EC%86%8D%EC%B4%88/): 20개 노선, 하루 210회 출발
+- [마산터미널 고속·시외버스 시간표](https://bus.flowtrace.xyz/%ED%84%B0%EB%AF%B8%EB%84%90/%EB%A7%88%EC%82%B0/): 25개 노선, 하루 209회 출발
+- [안산터미널 시외버스 시간표](https://bus.flowtrace.xyz/%ED%84%B0%EB%AF%B8%EB%84%90/%EC%95%88%EC%82%B0%ED%84%B0%EB%AF%B8%EB%84%90/): 24개 노선, 하루 207회 출발
+- [대구서부터미널 고속·시외버스 시간표](https://bus.flowtrace.xyz/%ED%84%B0%EB%AF%B8%EB%84%90/%EB%8C%80%EA%B5%AC%EC%84%9C%EB%B6%80/): 28개 노선, 하루 205회 출발
+- [평택터미널 고속·시외버스 시간표](https://bus.flowtrace.xyz/%ED%84%B0%EB%AF%B8%EB%84%90/%ED%8F%89%ED%83%9D/): 14개 노선, 하루 196회 출발
+- [충주터미널 고속·시외버스 시간표](https://bus.flowtrace.xyz/%ED%84%B0%EB%AF%B8%EB%84%90/%EC%B6%A9%EC%A3%BC/): 27개 노선, 하루 195회 출발
+- [여수터미널 고속·시외버스 시간표](https://bus.flowtrace.xyz/%ED%84%B0%EB%AF%B8%EB%84%90/%EC%97%AC%EC%88%98/): 30개 노선, 하루 191회 출발
+- [목포터미널 고속·시외버스 시간표](https://bus.flowtrace.xyz/%ED%84%B0%EB%AF%B8%EB%84%90/%EB%AA%A9%ED%8F%AC/): 30개 노선, 하루 181회 출발
+
+## 사이트 정보
+
+- [소개](https://bus.flowtrace.xyz/%EC%86%8C%EA%B0%9C/): 데이터 출처와 갱신 방식
+- [English](https://bus.flowtrace.xyz/en/): Korea express & intercity bus timetables in English
