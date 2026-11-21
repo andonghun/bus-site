@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://bus.factpane.com/sitemap.xml
